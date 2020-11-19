@@ -1,7 +1,7 @@
 # Attachment2Nexcloud
 Das Script greift auf ein IMAP-Postfach zu und lädt die Anhänge der Email-Nachrichten, die seit der letzen Ausführung des Skriptes eingetroffen sind, auf eine Nextcloud hoch. 
 
-Damit keine Dateien in der Cloud überschrieben werden, wird in den Dateinamen der hochgeladenen Datei ein Timestamp angehängt. 
+Damit keine Dateien in der Cloud überschrieben werden, wird in den Dateinamen der hochgeladenen Dateien ein Timestamp angehängt. 
 
 ## Voraussetzungen
 ```
