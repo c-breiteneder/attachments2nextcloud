@@ -12,5 +12,5 @@ pip install pytz
 
 ## Verwendung
 ```
-py.exe attachment2nextcloud.py
+py.exe attachments2nextcloud.py
 ```
