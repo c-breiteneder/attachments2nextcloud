@@ -1,16 +1,17 @@
 # Attachment2Nexcloud
-Das Script greift auf ein IMAP-Postfach zu und lädt die Anhänge der Email-Nachrichten, die seit der letzen Ausführung des Skriptes eingetroffen sind, auf eine Nextcloud hoch. 
 
-Damit keine Dateien in der Cloud überschrieben werden, wird in den Dateinamen der hochgeladenen Dateien ein Timestamp angehängt. 
+The script fetches the attachments of a imap-mailbox and uploads the files to a nextcloud-storage. 
 
-## Voraussetzungen
+To prevent overwriting of existings files a timestamp will be added to the filename. 
+
+## Requirements
 ```
 pip install imap_tools
 pip install pyocclient
 pip install pytz
 ```
 
-## Verwendung
+## Usage
 ```
-py.exe attachments2nextcloud.py
+py.exe attachment2nextcloud.py
 ```
