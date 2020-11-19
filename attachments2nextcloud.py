@@ -4,7 +4,7 @@ from imap_tools import MailBox,AND
 import owncloud
 import shutil
 import pytz
-import configparsercd
+import configparser
 
 # Read config
 config = configparser.ConfigParser()
